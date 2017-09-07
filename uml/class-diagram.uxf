@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>490</x>
+      <y>70</y>
+      <w>160</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;ORM Persistable&gt;&gt;
+Buku
+--
+- id : string
+- isbn : string
+- judul : string
+- pengarang : string
+- penerbit : Penerbit
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>490</x>
+      <y>320</y>
+      <w>160</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;ORM Persistable&gt;&gt;
+Penerbit
+--
+- id : string
+- nama : string
+- website : string
+- alamat : string
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>240</x>
+      <y>60</y>
+      <w>160</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;ORM Persistable&gt;&gt;
+Buku
+--
+- id : string
+- isbn : string
+- judul : string
+- pengarang : string
+- jumlah_buku : int
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>230</x>
+      <y>300</y>
+      <w>160</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;ORM Persistable&gt;&gt;
+Transaksi
+--
+- id : string
+- tanggal_pinjam : Date
+- tanggal_kembali : Date
+- buku : Buku
+- anggota : Anggota
+- kembali : boolean
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>560</x>
+      <y>210</y>
+      <w>30</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=
+m2=</panel_attributes>
+    <additional_attributes>10.0;110.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>380</x>
+      <y>210</y>
+      <w>130</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=
+m2=</panel_attributes>
+    <additional_attributes>110.0;10.0;10.0;170.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>310</x>
+      <y>200</y>
+      <w>30</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=
+m2=</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;100.0</additional_attributes>
+  </element>
+</diagram>
