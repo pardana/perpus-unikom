@@ -14,5 +14,5 @@
 
 ## UI Mockup
 
-![UI Mockup](/exports/Daftar Buku.png)
-![UI Mockup](/exports/Form Buku.png)
+![UI Mockup](/exports/Form-Buku.png)
+![UI Mockup](/exports/Daftar-Buku.png)
