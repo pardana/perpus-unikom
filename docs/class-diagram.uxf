@@ -17,6 +17,7 @@ Buku
 - judul : string
 - pengarang : string
 - penerbit : Penerbit
+- jumlah_buku : int
 bg=yellow</panel_attributes>
     <additional_attributes/>
   </element>
@@ -47,13 +48,14 @@ bg=yellow</panel_attributes>
       <h>150</h>
     </coordinates>
     <panel_attributes>&lt;&lt;ORM Persistable&gt;&gt;
-Buku
+Anggota
 --
 - id : string
-- isbn : string
-- judul : string
-- pengarang : string
-- jumlah_buku : int
+- nama : string
+- universitas : string
+- jurusan : string
+- member_sejak : Date
+- masa_berlaku : Date
 bg=yellow</panel_attributes>
     <additional_attributes/>
   </element>

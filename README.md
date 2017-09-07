@@ -11,3 +11,8 @@
 ## Perancangan Data 
 
 ![Perancangan Data](/exports/class-diagram.png)
+
+## UI Mockup
+
+![UI Mockup](/export/Daftar Buku.png)
+![UI Mockup](/export/Form Buku.png)
